@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>OceanTurtleEarings</title>
+        <link rel="stylesheet" href="ambersHarthstoneSite.css">  <!--To the Master CSS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Rye&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="mainContainer">
+            <header>
+                <h1>Hearthstone</h1>
+                <hr>
+            </header>
+            <div class="oceanEarringImg">
+                <img src="IMG_OceanTurtleEarrings.jpg" alt="Dangling earings featuring blue and green beads and dark turtle charms,
+                    displayed on a brown card against a backdrop of draped fabric, an abalone shell, and lavender springs.">
+                <div id="date-display">Date: </div>
+            </div>
+            <section class="turtleEarringsHeader">
+                <h2>About These Earrings</h2>
+                <div>
+                    <p class="turtleEarrings">
+                        These artisan-crafted earrings feature charming sea turtle charms paired with delicate glass beads.
+                         Each piece is carefully assembled to showcase a unique,
+                         coastal-inspired design that brings a touch of artisanal elegance to any outfit.
+                         <br>Designed with lightweight hooks, these versatile pieces transition effortlessly from casual daytime outing to elegant evening affairs.
+                    </p>
+                </div>
+            </section>
+            <footer>&copy; 2026 Hearthstone</footer>
+            <script>
+                document.getElementById("date-display").innerHTML = "Date: " + new Date().toLocaleDateString();
+                 console.log("Current date displayed: " + new Date().toLocaleDateString());
+            </script>
+        </div>
+    </body>
+</html>
