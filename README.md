@@ -1,1 +1,2 @@
-A customer e-commerce showcase built to highlight client products with interactive navigation, featuring responsive design and secure asset management to protect privacy.
+This is customer e-commerce showcase built to highlight client products with interactive navigation, featuring responsive design and secure asset management to protect privacy.
+Currently in active development, the project features a clear road map for expansion. Upcoming milestones include implementing dynamic price points for each product, building individual product pages accessible for the homepage, and integrating navigation elements like a peristent home button across all views to ensure a seamless user experiance.
